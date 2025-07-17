@@ -1,8 +1,10 @@
 # NOTES
 
-[Functional Interface](@functionalinterface)
-[Default methods](defaultmethods)
-[Static methods](staticmethods)
+[Functional Interface](#@functionalinterface)
+
+[Default methods](#defaultmethods)
+
+[Static methods](#staticmethods)
 
 ---
 
