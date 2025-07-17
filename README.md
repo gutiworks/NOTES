@@ -2,9 +2,9 @@
 
 [Functional Interface](#@functionalinterface)
 
-[Default methods](#defaultmethods)
+[Default methods](#default-methods)
 
-[Static methods](#staticmethods)
+[Static methods](#static-methods)
 
 ---
 
