@@ -3,11 +3,10 @@
 #### 🔧 Setup
 
 ```
+git config --list
+
 git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
-git config --global init.defaultBranch main
-git config --global core.editor "code --wait"
-git config --global color.ui auto
 ```
 
 ---
