@@ -42,21 +42,14 @@ git branch -d <name>        # Delete branch
 
 ---
 
-#### 📦 History & Logs
-
-```
-git log                      # Show commit log
-git diff                     # See unstaged changes
-```
-
----
-
 #### 📄 Stage & Commit
 
 ```
 git status                  # View changes
 git add <file>              # Stage file
 git add .                   # Stage all files
+git diff                    # See unstaged changes
+git log                     # Show commit log
 git commit -m "Message"     # Commit changes
 ```
 
@@ -88,8 +81,7 @@ git pull                      # Fetch & merge
 
 ```
 git restore <file>           # Unstage/undo changes
-git reset --soft HEAD~1      # Undo last commit (keep files)
-git reset --hard HEAD~1      # Undo commit + changes
+git clean -f                 # Delete non staged changes
 ```
 
 ---
