@@ -59,6 +59,7 @@ git commit -m "Message"     # Commit changes
 
 ```
 git stash                 # Save uncommitted changes
+git stash -m              # Save uncommitted changes with message
 git stash pop             # Apply and remove last stash
 git stash list            # List stashed changes
 ```
