@@ -80,7 +80,8 @@ git pull                      # Fetch & merge
 #### ❌ Undo
 
 ```
-git restore <file>           # Unstage/undo changes
+git restore <file>           # Delete non staged files
+git restore --staged <file>  # Unstage files
 git clean -f                 # Delete non staged changes
 ```
 
