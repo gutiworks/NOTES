@@ -12,6 +12,11 @@ git config --global user.email "your@email.com"
 git config --local user.name "Your Name"
 git config --local user.email "your@email.com"
 ```
+```bash
+//Show hidden files to find .git
+ls -a 
+dir /a
+```
 
 ---
 
