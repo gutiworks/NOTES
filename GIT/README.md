@@ -12,7 +12,7 @@ git config --global user.email "your@email.com"
 git config --local user.name "Your Name"
 git config --local user.email "your@email.com"
 ```
-```bash
+```
 //Show hidden files to find .git
 ls -a 
 dir /a
@@ -25,7 +25,28 @@ rm -rf // Force remove of .git if want to delete a repo
 
 ```
 git init                     # Create new local repo
-git clone <url>             # Clone existing repo
+git clone <url>              # Clone existing repo
+```
+
+---
+
+#### 🌿 Branching
+
+```
+git branch                  # List branches
+git branch <name>           # Create new branch
+git checkout <name>         # Switch branch
+git merge <name>            # Merge into current
+git branch -d <name>        # Delete branch
+```
+
+---
+
+#### 📦 History & Logs
+
+```
+git log                      # Show commit log
+git diff                     # See unstaged changes
 ```
 
 ---
@@ -41,14 +62,12 @@ git commit -m "Message"     # Commit changes
 
 ---
 
-#### 🌿 Branching
+#### 🗃️ Stash (temp storage)
 
 ```
-git branch                  # List branches
-git branch <name>           # Create new branch
-git checkout <name>         # Switch branch
-git checkout -b <name>      # Create and switch
-git merge <name>            # Merge into current
+git stash                 # Save uncommitted changes
+git stash pop             # Apply and remove last stash
+git stash list            # List stashed changes
 ```
 
 ---
@@ -65,33 +84,12 @@ git pull                      # Fetch & merge
 
 ---
 
-#### 📦 History & Logs
-
-```
-git log                      # Show commit log
-git log --oneline --graph    # Compact log
-```
-
----
-
 #### ❌ Undo
 
 ```
 git restore <file>           # Unstage/undo changes
 git reset --soft HEAD~1      # Undo last commit (keep files)
 git reset --hard HEAD~1      # Undo commit + changes
-```
-
----
-
-#### 🙈 .gitignore Example
-
-```
-*.log
-*.class
-/build/
-/.idea/
-/node_modules/
 ```
 
 ---
