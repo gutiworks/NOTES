@@ -16,6 +16,7 @@ git config --local user.email "your@email.com"
 //Show hidden files to find .git
 ls -a 
 dir /a
+rm -rf // Force remove of .git if want to delete a repo
 ```
 
 ---
